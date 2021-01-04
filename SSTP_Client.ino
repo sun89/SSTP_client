@@ -97,7 +97,7 @@ void setup() {
   for (int i=0;i< sha256.len(); i++) {
     Serial.printf("%02X ", dt[i]);
   }
-  Serial.println("++++++++++++++++");
+  Serial.println("\n++++++++++++++++");
 }
 
 bool SSTP_SendInit() {
