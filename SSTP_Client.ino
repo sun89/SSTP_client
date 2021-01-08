@@ -10,8 +10,8 @@
 #include <WiFiClientSecureBearSSL.h>
 
 #ifndef STASSID
-#define STASSID "JOY_2G"
-#define STAPSK  "0856868216"
+#define STASSID "Solution Team"
+#define STAPSK  "12345678"
 #endif
 
 const char* ssid     = STASSID;
